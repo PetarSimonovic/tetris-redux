@@ -1,0 +1,18 @@
+:root {
+  --bg-color: rgba(150, 150, 150, 1);
+
+  /* Square Colors:  background colors for the squares.*/
+
+  /* Button Colors */
+  --button-color-t: rgba(200, 200, 200, 1);
+  --button-color-r: rgba(150, 150, 150, 1);
+  --button-color-b: rgba(120, 120, 120, 1);
+  --button-color-l: rgba(222, 222, 222, 1);
+
+  /* Numbers define values that will be used throughout the CSS.
+    --tile-size: 20px for example will set size of the grid squares. */
+  --cols: 10;
+  --rows: 18;
+  --tile-size: 20px;
+  --border-width: 5px;
+}
