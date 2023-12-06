@@ -11,7 +11,15 @@ export const GridBoard = () => {
     setBoard(grid);
   }, []);
 
-  return <div>{board}</div>;
+  return (
+    <div>
+      {board.map((row) => {
+        return row.map((element, index) => (
+          <GridSquare key={index} color={element} />
+        ));
+      })}
+    </div>
+  );
 };
 
 export default GridBoard;
